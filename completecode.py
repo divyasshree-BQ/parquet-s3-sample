@@ -8,7 +8,7 @@ s3 = boto3.client('s3', aws_access_key_id='your id', aws_secret_access_key='your
 bucket_name = 'parquet-bsc'
 
 
-bsc_local_path = 'C:/Users/divyn/Downloads/sample.parquet'
+bsc_local_path = 'C:/Your Path/sample.parquet'
 bsc_key='dex_trades_tx/2020-09-12_410000_88573E9FA803AF8D_10000.parquet'
 
 filename='2020-09-12_410000_88573E9FA803AF8D_10000.parquet'
